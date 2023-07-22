@@ -1,0 +1,416 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 1.2em;
+}
+
+img {
+    max-width: 638px;
+    width: 100%;
+}
+
+.dz {
+    max-width: 1000px;
+    min-width: 80%;
+    background-color: gainsboro;
+    box-shadow: 1px 2px;
+    margin: 0 auto;
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dz__header {
+    text-align: center;
+}
+
+.condition {
+    background-color: lightblue;
+    width:90%;
+    display:block;
+    margin: 0 auto;
+}
+
+.condition__text {
+    padding: 3px 5%;
+    text-align: left;
+}
+
+.realization__blockschem {
+/*    background-color: gray;*/
+}
+
+.realization__blockschem_image {
+    text-align: center;
+}
+
+.realization__blockschem_non {
+    background-color: lightblue;
+    text-align: center;
+    width:90%;
+    margin: 0 auto;
+    color: ivory;
+}
+
+.realization__codelist {
+    width: 90%;
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+
+.realization__codelist_code{
+    
+}
+
+.realization__testit {
+    width: 90%;
+    background-color: lightblue;
+    padding: 3px;
+    margin: 0 auto;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-content: space-between;
+}
+
+.realization__testit_leftcolumn {
+    width: 49%;
+    height: auto;
+    background-color: aqua;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.realization__testit_innercol:not(.first) {
+    margin-top: 10px;
+    padding-top: 7px;
+    border-top: 2px solid lightblue;
+}
+
+.realization__testit_rightcolumn {
+    width: 49%;
+    height: auto;
+    background-color: aqua;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.realization__testit_subcolumn_wrapper {
+    display: flex;
+    align-content: space-between;
+}
+
+.realization__testit_subcolumn {
+    position: relative;
+    float: left;
+    width: 49%;
+    height: auto;
+    background-color: azure;
+    margin: 0 auto;
+}
+
+.realization__testit_schedulertext {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100px;
+    padding: 5px;
+}
+
+.realization__testit_sheduler-button {
+    float: left;
+}
+
+.realization__testit_sheduler-radio {
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.col35 {
+    width: 35%;
+}
+
+.col65 {
+    width: 65%;
+}
+
+.task_header {
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid black;
+    background-color: antiquewhite;
+}
+
+.taskclass {
+    border-bottom: 1px solid black;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.taskdel {
+    /*display: block;*/
+}
+
+.intaskbutchan {
+    display: inline-block;
+    background-color: chartreuse;
+/*    color: slategray;*/
+}
+
+.intaskbutdel {
+    display: inline-block;
+    background-color: tomato;
+/*    color: slategray;*/
+}
+
+.intaskbutdel {
+    
+}
+
+#taskListen {
+    /* создано для Javascript */
+}
+
+.answer {
+    text-align: center;
+    font-size: 36px;
+    color: red;
+}
+
+/* ---------- */
+
+.important-block {
+    width:240px;
+    height: 67px;
+    background-color: aqua
+}
+
+/* ---------*/
+
+.input_area {
+    margin: 2px;
+    padding:2px;
+}
+
+
+#d_apple {
+    
+}
+
+/* --------- */
+
+.block_text {
+    display: block;
+    word-wrap: break-word;
+}
+
+/* ----- Морской бой ---- */
+
+.sea-fight_gamefild {
+    position: relative;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.sf_gamefield {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background: gray;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.line {
+    
+}
+
+.sf_cell,
+.empty_cell,
+.sf_cell_pcfield_disabled {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.sf_cell,
+.sf_cell_pcfield_disabled {
+    background-color: rgba(208, 225, 225, 1);
+}
+
+.sf_cell_with_ship {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: rgba(20, 31, 31, 1);
+}
+
+.sf_cell_with_pc_ship {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: rgba(208, 225, 225, 1);
+}
+
+.sf_cell_with_pc_ship:hover {
+    background-color: rgba(208, 225, 225, 0.3);
+}
+
+.sf_cell_with_ship:active, 
+.sf_cell_with_pc_ship:active {
+    background-color: red;
+}
+
+.sf_cell_disabled {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: rgba(224, 235, 235, 0.7);
+}
+
+/*.sf_cell_pcfield_disabled {
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: rgba(224, 235, 235, 0.7);
+}*/
+
+.sf_cell_disabled:hover,
+.sf_cell_pcfield_disabled:hover {
+    background-color: rgba(208, 225, 225, 0.3);
+}
+
+.destroyed_cell{
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: rgba(204, 0, 0, 1);
+}
+
+.empty_cell {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/*.empty_cell:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}*/
+
+.ship {
+    position: relative;
+/*    position: absolute;*/
+    padding: 1px;
+    margin: 1px;
+    background-color: red;
+}
+
+.deck_four {
+    width: 42px;
+    height: 168px;
+    border: 1px solid black;
+    background-color: rgba(208, 225, 225, 1);
+}
+
+.deck_three {
+    width: 42px;
+    height: 126px;
+    border: 1px solid black;
+    background-color: rgba(208, 225, 225, 1);
+}
+
+.deck_two {
+    width: 42px;
+    height: 84px;
+    border: 1px solid black;
+    background-color: rgba(208, 225, 225, 1);
+}
+
+.deck_one {
+    width: 42px;
+    height: 42px;
+    border: 1px solid black;
+    background-color: rgba(208, 225, 225, 1);
+}
+
+.plased {
+    display: none;
+}
+
+.sf_cell:hover {
+    background-color: rgba(208, 225, 225, 0.3);
+}
+
+.sf_cell:active {
+    background-color: red;
+}
+
+.shipyard_field {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    width: 420px;
+    height: 175px;
+/*    height: auto;*/
+    background: gray;
+}
+
+.centralised_button {
+    display: block;
+    margin: 0 auto;
+}
+
+/*.seaFightLogickalField {
+    position: relative;
+}*/
+
+.gameEndInformer {
+    position: absolute;
+    display: none;
+    top: 0;
+    bottom: 142px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(128, 64, 0);
+}
+
+.endMessage {
+    position: relative;
+    top: 35px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.statusButtonsContainer {
+    position: relative;
+    top: 20%;
+    width: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: gainsboro;
+}
+
+.statusButton {
+    width: 100%;
+}
+
+/* --------- */
+
+.clearer {
+    content: "";
+    display: table;
+    clear: both;
+}
